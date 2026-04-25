@@ -6,28 +6,28 @@ function RecipeLayout() {
       <aside className="ingredients-card">
         <h2>Mochi Ingredients</h2>
 
-        <ol>
+        <ul>
           <li>1 cup mochiko rice flour</li>
           <li>1/4 cup sugar</li>
           <li>3/4 cup milk</li>
           <li>1 drop red food coloring</li>
           <li>1.5 tbsp butter</li>
-        </ol>
+        </ul>
 
         <h2>Filling Ingredients</h2>
 
-        <ol>
+        <ul>
           <li>1 cup heavy cream</li>
           <li>1 tbsp sugar</li>
           <li>1 tbsp vanilla extract</li>
           <li>45 diced strawberries</li>
-        </ol>
+        </ul>
 
-        <h2>Extra Ingredients</h2>
+        <h2>Optional Ingredients</h2>
 
-        <ol>
+        <ul>
           <li>Candy melts</li>
-        </ol>
+        </ul>
       </aside>
 
       <div className="middle-column" aria-hidden="true"></div>
