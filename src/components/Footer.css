@@ -1,0 +1,13 @@
+.footer {
+  margin-top: 3rem;
+  padding: 1.5rem;
+  text-align: center;
+  background: #ffd6eb;
+  border-top: 4px solid #ff8fc4;
+}
+
+.footer p {
+  font-family: "Fredoka", sans-serif;
+  color: #7a2c4f;
+  font-size: 0.95rem;
+}
