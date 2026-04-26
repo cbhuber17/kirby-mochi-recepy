@@ -43,3 +43,40 @@
 .middle-column {
   min-height: 100%;
 }
+
+/* Mobile: stack into one column */
+@media (max-width: 768px) {
+  .recipe-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+
+  .middle-column {
+    display: none;
+  }
+
+  .ingredients-card {
+    /* max-width: 768px; */
+  }
+
+  .ingredients-card,
+  .procedure-card {
+    padding: 1.25rem;
+    border-radius: 20px;
+    box-shadow: 0 6px 0 #f472b6;
+  }
+
+  .ingredients-card h2,
+  .procedure-card h2 {
+    font-size: 1.3rem;
+  }
+
+  .ingredients-card li,
+  .procedure-card li {
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+}

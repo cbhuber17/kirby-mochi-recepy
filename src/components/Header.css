@@ -7,14 +7,31 @@
 
 .title {
   font-family: "Fredoka", sans-serif;
-  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-size: clamp(2.2rem, 8vw, 4rem);
   color: #d63384;
   text-shadow: 2px 2px 0 #ffffff;
   margin-bottom: 0.5rem;
+  line-height: 1.05;
 }
 
 .subtitle {
   font-family: "Fredoka", sans-serif;
-  font-size: 1.2rem;
+  font-size: clamp(1rem, 4vw, 1.2rem);
   color: #7a2c4f;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .header {
+    padding: 1.5rem 1rem;
+  }
+
+  .title {
+    font-size: clamp(2rem, 11vw, 3rem);
+    text-shadow: 1.5px 1.5px 0 #ffffff;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
 }
