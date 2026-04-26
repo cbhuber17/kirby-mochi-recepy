@@ -58,10 +58,6 @@
     display: none;
   }
 
-  .ingredients-card {
-    /* max-width: 768px; */
-  }
-
   .ingredients-card,
   .procedure-card {
     padding: 1.25rem;
